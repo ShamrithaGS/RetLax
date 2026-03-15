@@ -1,0 +1,14 @@
+{
+  "name": "RetLax — Retirement Planning Calculator",
+  "short_name": "RetLax",
+  "description": "RetLax: Plan your retirement with confidence. Investor education tool by HDFC Mutual Fund. Illustrative only.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#224c87",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

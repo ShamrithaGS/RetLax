@@ -47,38 +47,71 @@ npm test         # Run 25 unit tests
 
 ## Project Structure
 retirement-calculator/
+
 ├── __tests__/
+
 │   └── retirement.test.ts       # 25 unit tests covering all core functions
+
 ├── app/
+
 │   ├── globals.css              # Brand design system, dark mode, print, PWA
+
 │   ├── layout.tsx               # Root layout, metadata, SW registration
+
 │   └── page.tsx                 # Main RetLax page
+
 ├── components/
+
 │   ├── steps/
+
 │   │   ├── Step1Age.tsx         # Age & timeline (focus-managed)
+
 │   │   ├── Step2Expenses.tsx    # Expenses + fraction guards (focus-managed)
+
 │   │   ├── Step3Assumptions.tsx # Lifestyle presets, returns, existing savings
+
 │   │   └── Step4Results.tsx     # Full results dashboard
+
 │   └── ui/
+
 │       ├── AssumptionChangeLog.tsx   # Diff from defaults
+
 │       ├── DonutChart.tsx            # Pure SVG donut
+
 │       ├── FormComponents.tsx        # Slider, Input, Tooltip (unique IDs)
+
 │       ├── LiveResultsPanel.tsx      # Sticky sidebar (no MC jank)
+
 │       ├── MonteCarloChart.tsx       # Fan chart
+
 │       ├── ScenarioComparison.tsx    # A vs B table
+
 │       ├── Stepper.tsx               # Progress stepper (all visited steps clickable)
+
 │       └── WhatIfSliders.tsx         # Debounced what-if explorer
+
 ├── hooks/
+
 │   ├── useAnimatedCounter.ts    # Animated number count-up
+
 │   ├── useDebounce.ts           # 150ms debounce for WhatIf sliders
+
 │   └── useRetirementCalc.ts     # State, URL sync, scenario management
+
 ├── lib/
+
 │   └── retirement.ts            # All pure calculation logic
+
 └── public/
+
     ├── icon-192.png             # PWA icon
+    
     ├── icon-512.png             # PWA icon
+    
     ├── manifest.json            # Web App Manifest
+    
     └── sw.js                    # Service Worker
+    ss
 
 ## Calculation Logic
 Step 1: Inflate Annual Expenses (per bucket)

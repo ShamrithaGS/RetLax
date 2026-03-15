@@ -36,9 +36,13 @@ RetLax is a tool that helps people plan for their retirement. It shows them how 
 
 ## Getting Started
 bash
+
 npm install
+
 npm run dev      # → run on localhost 3000
+
 npm run build    # Production build
+
 npm test         # Run 25 unit tests
 
 ## Project Structure

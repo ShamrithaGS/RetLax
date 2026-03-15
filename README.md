@@ -37,7 +37,7 @@ RetLax is a tool that helps people plan for their retirement. It shows them how 
 ## Getting Started
 bash
 npm install
-npm run dev      # → http://localhost:3000
+npm run dev      # → run on localhost 3000
 npm run build    # Production build
 npm test         # Run 25 unit tests
 
@@ -127,5 +127,5 @@ Iterates year-by-year with inflation-adjusted withdrawals until corpus reaches z
 All code is the intellectual property of HDFC Asset Management Company Limited.
 
 ##Video
-[Google Drive Folder:Video](https://drive.google.com/drive/folders/1JJTfoWVRCarqTriltO2UYw_74x-pLhvV?usp=drive_link)
+[Google Drive Folder : Video](https://drive.google.com/drive/folders/1JJTfoWVRCarqTriltO2UYw_74x-pLhvV?usp=drive_link)
 

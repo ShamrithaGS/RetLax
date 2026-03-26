@@ -102,16 +102,7 @@ retirement-calculator/
 
 │   └── retirement.ts            # All pure calculation logic
 
-└── public/
-    ├── icon-192.png             # PWA icon
-    
-    ├── icon-512.png             # PWA icon
-    
-    ├── manifest.json            # Web App Manifest
-    
-    └── sw.js                    # Service Worker
-    ss
-
+└── public
 ## Calculation Logic
 Step 1: Inflate Annual Expenses (per bucket)
 BasicInflated = BasicNow × (1 + generalInflation) ^ yearsToRetirement

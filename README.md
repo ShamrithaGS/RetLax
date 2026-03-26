@@ -103,7 +103,6 @@ retirement-calculator/
 │   └── retirement.ts            # All pure calculation logic
 
 └── public/
-
     ├── icon-192.png             # PWA icon
     
     ├── icon-512.png             # PWA icon
